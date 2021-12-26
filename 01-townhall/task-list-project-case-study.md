@@ -30,7 +30,7 @@ base_table
 
 
 users 
-(user:task = 1: N)
+(user:task => 1: N)
 - id - integer autoincrement primary key
 - name - string(100)
 - emaild -  string(100) : validate(email) #  foramt is xxx@yyy.zzz #foreign key cant be an array 
